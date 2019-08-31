@@ -75,12 +75,14 @@
 .p_eigth{
     position: absolute;
     top: 40.5%;
-    left: 30%;  
+    left: 30%; 
+    cursor: pointer;
 }
 .p_nine{
     position: absolute;
     top: 40.5%;
-    left: 36%;  
+    left: 36%; 
+    cursor: pointer;
 }
 .p_ten{
     position: absolute;
