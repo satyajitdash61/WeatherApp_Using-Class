@@ -1,0 +1,59 @@
+<!-- Weather app -->
+<!-- A Realtme Weather App where a user can see what is the current date,time
+user can change the temp to farenhit and vice-versa -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+     
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+
+</head>
+<body>
+
+    <div class='outer'>
+        <p class="WeatherApp"><span class="Weather">Weather</span><span class="App"> App</span></p>
+    </div>
+
+        <!-- The weather box -->
+
+        <div class='box'>
+            <p class="p_one" id="p_one">Bengaluru, Karnataka</p>
+            <p class="p_two" id="p_two"></p>
+            <p class="p_three" id="p_three">,</p>
+            <p class="p_four" id="p_four">1</p>
+            <!-- <p class="p_eleven" id="p_eleven">:</p> -->
+            <p class="p_twelve" id="p_twelve">00</p>
+            <p class="p_five" id="p_five">pm</p>
+            <p class="p_six" id="p_six">Cloudy</p>
+            <p class="p_seven" id="p_seven">26</p>
+            <p class="p_eigth" id="p_eigth" onclick="c()">&#8451;</p>
+            <p class="p_nine" id="p_nine" onclick="f()">&#8457;</p>
+            <p class="p_ten" id="p_ten">|</p>
+            <i class='fas fa-cloud' id="myImg" style='font-size:20px;color:rgb(185, 181, 181); position: absolute;top: 30%;left: 28%'></i>
+            
+            <div > 
+                 <h>Enter City Name</h>
+            </div>
+            <!-- Search City -->
+
+            <div class='search_item'>
+                <select class="drop" id="drop" onchange="setCity()">
+                    <!-- <option value="" disabled selected hidden>City,State</option> -->
+                    <option>Select</option>
+                    <option value="Bengaluru">Bengaluru</option>
+                    <option value="Bhubaneswar">Bhubaneswar</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Pune">Pune</option>
+                </select>
+            </div>
+        </div>
+    
+</body>
+<script src="weatherReport.js"></script>
+<script src="weather.js"></script>
+</html> 
