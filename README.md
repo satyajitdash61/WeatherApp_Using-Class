@@ -7,5 +7,8 @@ It is a weatherApp where Java Script class,constructor and object concept is use
 
 Happy coding !
 
+# Language Used
+Html,css,JavaScript
+
 # Preview
 https://gifted-mccarthy-075f85.netlify.com/
