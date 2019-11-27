@@ -10,5 +10,8 @@ Happy coding !
 # Language Used
 Html,css,JavaScript
 
+# Author
+Satyajit Dash
+
 # Preview
 https://gifted-mccarthy-075f85.netlify.com/
